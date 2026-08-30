@@ -24,6 +24,11 @@ body {
 .secound {
     margin: auto;
     width: fit-content;
+    transition: rotate 1s ease
+}
+
+.secound:hover {
+    rotate: 360deg;
 }
 
 .third {
