@@ -1,0 +1,50 @@
+body {
+    #background-color: rgb(185, 64, 64);
+    background-image: linear-gradient(to bottom, rgb(185, 64, 64), yellow );
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(211, 211, 211);
+}
+
+.first {
+    margin: 0 auto;
+    background-color: rgb(219, 220, 217);
+    width: 75%;
+    border-radius: 9px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.901);
+    overflow: hidden;
+}
+
+.secound {
+    margin: auto;
+    width: fit-content;
+}
+
+.third {
+    margin: auto;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    width: fit-content;
+    margin-right: auto;
+}
+
+.gif {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
