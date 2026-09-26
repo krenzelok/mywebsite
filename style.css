@@ -44,6 +44,11 @@ body {
     margin-right: auto;
 }
 
+.five {
+    margin: auto;
+    width: 96%;
+}
+
 .gif {
     width: fit-content;
     height: fit-content;
@@ -60,18 +65,50 @@ body {
     padding: 0 10px;
 }
 
-.linkss {
-
-}
-
-.linkes {
-
-}
-
 h1 {
     font-family: 'Courier New', Courier, monospace; 
 }
 
+.margin {
+    margin-top: revert;
+    margin-bottom: revert;
+}
+
+.topmargin {
+    margin-top: revert;
+}
+
+.bottommargin {
+    margin-bottom: revert;
+}
+
 p {
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.hiddena:link {
+    text-decoration: none;  
+    color: #111;
+}
+
+.hiddena:visited {
+    text-decoration: none;
+    color: #111 ;
+}
+
+.hiddena:hover {
+    text-decoration: none;
+    color: #111;
+}
+
+.hiddena:active {
+    text-decoration: none;
+    color: #111;
+}
+
+.hiddena:hover {
+    color: #fff ;
+    background: #111 ;
 }
