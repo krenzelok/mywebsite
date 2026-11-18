@@ -12,7 +12,7 @@ body {
 
 .first {
     margin: 0 auto;
-    background-color: rgb(219, 220, 217);
+    background-color: #e6e6e6;
     width: 75%;
     border-radius: 9px;
     border-style: solid;
